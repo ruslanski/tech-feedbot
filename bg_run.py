@@ -1,8 +1,9 @@
 #!usr/bin/env python3
 #Author: Ruslan Shakirov
-#https://github.com/ruslanski/tech_news
+#https://github.com/ruslanski/tech_feedbot
 #Start Date: 04/15/2020
 #Telegram Bot
+
 #Background File
 import time
 import bot

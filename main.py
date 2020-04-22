@@ -1,6 +1,6 @@
 #!usr/bin/env python3
 #Author: Ruslan Shakirov
-#https://github.com/ruslanski/tech-news
+#https://github.com/ruslanski/tech_feedbot
 #Start Date: 04/15/2020
 #Telegram Bot
 #main.py - Main File
@@ -19,8 +19,8 @@ t.start()
 
 while 1:
     if bg_run.run == 0:
-        print("Initializing fetch of news..\n")
+        print("Initializing fetch of news-articles..\n")
         bot.scrape()
-        print ("News have been updated..\n")
+        print ("News-articles have been updated..\n")
         bg_run.run = 1
         

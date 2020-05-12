@@ -1130,7 +1130,7 @@ def runBot():
     # Make sure to set use_context=True to use the new context based callbacks
     # Post version 12 this will no longer be necessary
     
-    updater = Updater("1108713356:AAGmv0BU9VYHH7d3LkIsGeapI9Zvh-D10YQ")
+    updater = Updater("API-KEY")
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
     dp.add_handler(CallbackQueryHandler(main_menu, pattern='^main$'))
